@@ -6,49 +6,49 @@ const collections = [
         id: 1,
         title: 'Colorful Auto Rickshaw',
         category: 'Handcrafted Decor',
-        image: '/image/COLOURFULL AUTO RICKSHAW.jpeg',
+        image: `${import.meta.env.BASE_URL}image/COLOURFULL AUTO RICKSHAW.jpeg`,
     },
     {
         id: 2,
         title: 'Intricate Wooden Elephant',
         category: 'Traditional Art',
-        image: '/image/INTRICA WOODEN ELEPHANT.jpeg',
+        image: `${import.meta.env.BASE_URL}image/INTRICA WOODEN ELEPHANT.jpeg`,
     },
     {
         id: 3,
         title: 'Udaipur Tea Trolley',
         category: 'Premium Furniture',
-        image: '/image/UDAIPUR TEA TROLLEY.jpeg',
+        image: `${import.meta.env.BASE_URL}image/UDAIPUR TEA TROLLEY.jpeg`,
     },
     {
         id: 4,
         title: 'Hand Painted Cycle Rickshaw',
         category: 'Heritage Models',
-        image: '/image/HAND PAINTED CYCLE RICKHSHAW.jpeg',
+        image: `${import.meta.env.BASE_URL}image/HAND PAINTED CYCLE RICKHSHAW.jpeg`,
     },
     {
         id: 5,
         title: 'Sun Halo Buddha',
         category: 'Spiritual Decor',
-        image: '/image/SUN HALO BUDDHA.jpeg',
+        image: `${import.meta.env.BASE_URL}image/SUN HALO BUDDHA.jpeg`,
     },
     {
         id: 6,
         title: 'Nesting Doll',
         category: 'Aesthetic Curios',
-        image: '/image/NESTING DOLL.jpeg',
+        image: `${import.meta.env.BASE_URL}image/NESTING DOLL.jpeg`,
     },
     {
         id: 7,
         title: 'Penguin Case',
         category: 'Novelty Boxes',
-        image: '/image/PENGUIN CASE.jpeg',
+        image: `${import.meta.env.BASE_URL}image/PENGUIN CASE.jpeg`,
     },
     {
         id: 8,
         title: 'Sun Motif',
         category: 'Wall Art',
-        image: '/image/SUN.jpeg',
+        image: `${import.meta.env.BASE_URL}image/SUN.jpeg`,
     }
 ];
 

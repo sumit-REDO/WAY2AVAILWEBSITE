@@ -15,7 +15,7 @@ const HeroSection = () => {
             >
                 <div className="absolute inset-0 bg-gradient-to-b from-charcoal/40 via-charcoal/20 to-charcoal z-10" />
                 <img
-                    src="/image/hero.jpeg"
+                    src={`${import.meta.env.BASE_URL}image/hero.jpeg`}
                     alt="WAY2AVAIL INTERNATIONAL"
                     className="w-full h-full object-cover object-center"
                 />

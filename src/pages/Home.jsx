@@ -47,7 +47,7 @@ const Home = () => {
                                 </div>
                                 <div className="relative">
                                     <div className="absolute inset-0 border-2 border-gold/30 translate-x-4 translate-y-4"></div>
-                                    <img src="/image/SUN HALO BUDDHA.jpeg" alt="Heritage Craftsmanship" className="relative z-10 w-full h-[500px] object-cover grayscale hover:grayscale-0 transition-all duration-[2s] cursor-hover" />
+                                    <img src={`${import.meta.env.BASE_URL}image/SUN HALO BUDDHA.jpeg`} alt="Heritage Craftsmanship" className="relative z-10 w-full h-[500px] object-cover grayscale hover:grayscale-0 transition-all duration-[2s] cursor-hover" />
                                 </div>
                             </div>
                         </section>
