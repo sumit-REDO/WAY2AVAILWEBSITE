@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Abhi-Coder000.github.io/WAY2AVAILWEBSITE",
+  "homepage": "https://sumit-redo.github.io/WAY2AVAILWEBSITE",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
