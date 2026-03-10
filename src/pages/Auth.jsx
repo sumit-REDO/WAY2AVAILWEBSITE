@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Lock, UserPlus, ArrowRight, ArrowLeft, Mail, MapPin, Phone } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
@@ -163,9 +164,9 @@ const Auth = () => {
                         </form>
                         
                         <div className="mt-8 text-center pt-6 border-t border-white/10">
-                            <a href="/" className="inline-flex items-center gap-2 text-xs text-gray-500 hover:text-white transition-colors uppercase tracking-widest cursor-hover">
+                            <Link to="/" className="inline-flex items-center gap-2 text-xs text-gray-500 hover:text-white transition-colors uppercase tracking-widest cursor-hover">
                                 <ArrowLeft className="w-3 h-3" /> Return Home
-                            </a>
+                            </Link>
                         </div>
                     </motion.div>
 

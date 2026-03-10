@@ -4,6 +4,7 @@ import HeroSection from '../components/HeroSection';
 import FeaturedCollections from '../components/FeaturedCollections';
 import Footer from '../components/Footer';
 import IntroLoader from '../components/IntroLoader';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     const [showLoader, setShowLoader] = useState(true);
@@ -41,9 +42,9 @@ const Home = () => {
                                     <p className="text-gray-400 leading-relaxed font-light text-lg">
                                         WAY2AVAIL INTERNATIONAL serves as the global nexus for India's most exquisite artisanal creations. Elevate your retail collection with our exclusive access catalogs.
                                     </p>
-                                    <a href="/auth" className="inline-block mt-10 px-6 py-3 border border-white/20 hover:border-gold hover:text-gold transition-colors duration-300 text-sm uppercase tracking-widest cursor-hover">
+                                    <Link to="/auth" className="inline-block mt-10 px-6 py-3 border border-white/20 hover:border-gold hover:text-gold transition-colors duration-300 text-sm uppercase tracking-widest cursor-hover">
                                         Login / Sign Up
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div className="relative">
                                     <div className="absolute inset-0 border-2 border-gold/30 translate-x-4 translate-y-4"></div>
@@ -62,9 +63,9 @@ const Home = () => {
                                 <p className="text-xl text-gray-300 font-light mb-10">
                                     Register today for exclusive access to our wholesale catalog and international pricing.
                                 </p>
-                                <a href="/auth" className="bg-gold text-charcoal px-10 py-4 font-semibold tracking-widest uppercase transition-transform hover:scale-105 inline-block cursor-hover">
+                                <Link to="/auth" className="bg-gold text-charcoal px-10 py-4 font-semibold tracking-widest uppercase transition-transform hover:scale-105 inline-block cursor-hover">
                                     Login / Sign Up
-                                </a>
+                                </Link>
                             </div>
                         </section>
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Globe } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -21,9 +22,9 @@ const Footer = () => {
                     <div>
                         <h4 className="text-white font-serif tracking-wider mb-6">Sitemap</h4>
                         <ul className="space-y-3">
-                            <li><a href="/" className="text-gray-400 hover:text-gold transition-colors text-sm cursor-hover">Home</a></li>
-                            <li><a href="/#collections" className="text-gray-400 hover:text-gold transition-colors text-sm cursor-hover">Collections</a></li>
-                            <li><a href="/auth" className="text-gray-400 hover:text-gold transition-colors text-sm cursor-hover">Login / Sign Up</a></li>
+                            <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors text-sm cursor-hover">Home</Link></li>
+                            <li><Link to="/#collections" className="text-gray-400 hover:text-gold transition-colors text-sm cursor-hover">Collections</Link></li>
+                            <li><Link to="/auth" className="text-gray-400 hover:text-gold transition-colors text-sm cursor-hover">Login / Sign Up</Link></li>
                         </ul>
                     </div>
 
